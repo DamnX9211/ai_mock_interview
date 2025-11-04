@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
     <h1>Interview Generation</h1>
-    <Agent />
+    <Agent userName={''} type={'interview'} />
     </>
   )
 }
